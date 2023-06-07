@@ -8,7 +8,7 @@
 
 Console.WriteLine("Введите любое трехзначное чило ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number < 100 || number >= 1000);
+if (number < 100 || number >= 1000)
 {
     Console.WriteLine("Вы ввели не трехзначное число, пожалуйста повторите ввод");
     return;
@@ -22,8 +22,9 @@ int DeleteSecondDigit (int num)
     int needDigit = firstDigit	* 10 + thirdDigit;
     return needDigit;
 }
+
 Console.WriteLine($"Введите число `{number}`");
 int secondDigit = number / 10 % 10;
 
 
-Console.WriteLine($"{number} -> {result}");
+Console.WriteLine($"{number} -> {secondDigit}");
